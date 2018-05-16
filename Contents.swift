@@ -1,9 +1,8 @@
 import UIKit
 // create an empty array
-var arr = [Int]()
+let arr = [Int](1...100)
 var aux : Int
 // add data to the array using a Range
-arr += 1...100
 print(arr)
 
 for number in arr {
@@ -23,5 +22,4 @@ for number in arr {
     if(number >=  30  && number <= 40){
         print("# \(number) Viva Swift")
     }
-
 }
