@@ -24,5 +24,4 @@ for number in arr {
         print("# \(number) Viva Swift")
     }
 
-
 }
